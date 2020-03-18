@@ -1,0 +1,77 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/components/index",
+		    "style" : {
+					"navigationBarTitleText": "",
+					"navigationBarBackgroundColor":"transparent",
+					"navigationStyle":"custom",
+					"navigationBarTextStyle":"black"
+				}
+		},
+	    {
+            "path" : "pages/components/chaplist",
+            "style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor":"#41b881",
+				"navigationBarTextStyle":"white"
+			}
+        },{
+            "path" : "pages/components/detail",
+            "style" :{
+					"navigationBarTitleText": "",
+					"navigationBarBackgroundColor":"transparent",
+					"navigationBarTextStyle":"black"
+				}
+        }
+        ,{
+            "path" : "pages/components/discover",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/me",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/register",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/login",
+            "style" : {}
+        }
+        
+        ,{
+            "path" : "pages/components/category",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "white",
+	    "backgroundColor": "#444",
+	    "list": [{
+	        "pagePath": "pages/components/index",
+			"iconPath": "static/tabbar/basics.png",
+			"selectedIconPath": "static/tabbar/basics_cur.png",
+	        "text": "推荐"
+	    }, {
+	        "pagePath": "pages/components/discover",
+	        "iconPath": "static/tabbar/component.png",
+	        "selectedIconPath": "static/tabbar/component_cur.png",
+	        "text": "发现"
+	    }, {
+	        "pagePath": "pages/components/me",
+	        "iconPath": "static/tabbar/about.png",
+	        "selectedIconPath": "static/tabbar/about_cur.png",
+	        "text": "我的"
+	    }]
+	}
+}
